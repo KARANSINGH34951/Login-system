@@ -6,7 +6,7 @@
       <div class="text">Registration</div>
 
       {{#if msg}}
-      <p>{{msg}}</p>
+      <p class="{{msg_type}}">{{msg}}</p>
       {{/if}}
       <form action="/auth/register" method="post">
         <div class="data">

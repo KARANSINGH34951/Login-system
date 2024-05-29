@@ -149,3 +149,14 @@ nav .menu a:hover{
 .container-fluid img{
   width: 200px;
 }
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+.err-free{
+  color:green;
+  font-weight: bold;
+
+}

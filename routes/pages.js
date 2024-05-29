@@ -2,7 +2,7 @@ const express = require("express")
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.render('index');
+  res.render('login');
 });
 
 router.get('/register', (req, res) => {
@@ -16,6 +16,8 @@ res.render('profile');
 router.get('/home', (req, res) => {
 res.render('home');
 });
+
+
 
 
 

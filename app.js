@@ -4,6 +4,9 @@ const dotenv= require("dotenv");
 const path=  require("path");
 const hbs= require("hbs");
 
+// const cookieparser=require("cookie-parser")
+
+
 dotenv.config({path: './.env'});
 const app=express();
 const db = mysql.createConnection({
@@ -24,6 +27,7 @@ db.connect((err) => {
 
 
 app.use(express.urlencoded({extended:false}))
+// app.use(cookieparser())
 
 // console.log(__dirname);
 
